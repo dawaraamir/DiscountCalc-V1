@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calc</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h2>Discount Calculator</h2>
+    <form name="discountCalculator" >
+  <div>
+            <label for="price">Price: </label>
+            <input type="text" name="price" id="price"
+            </input>
+            <br>
+            <label for="discount"> Discount: </label>
+            <input type="number" name="discount" id="discount" maxlength="4" min="0" max="100">
+            </input>
+            <br>
+            <label for="afterdiscount"> After Discount: </label>
+            <input type="number" name="afterDiscount" id="afterdiscount" readonly>
+        </input>
+        <br>
+        <input type="button" value="submit" onclick="calculate()">
+          </form>
+        </div>
+        </body>
+    <script src="main.js"></script>
+</body>
+</html>
